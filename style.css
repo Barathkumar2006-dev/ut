@@ -1,0 +1,1400 @@
+/* general content */
+
+*{margin:0;
+  padding:0;
+  box-sizing:border-box;}
+
+/* general - main */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{min-height:700vh;}
+
+*{list-style-type:none;}
+
+.main-head{display:flex;
+           align-items:center;
+           justify-content:space-between;
+           padding:35px 7%;
+}
+
+.nav-bar{transform:translateX(50px);}
+
+.main-head .logo h2{font-size:1.9rem;
+  font-family: "Audiowide", sans-serif;
+  font-weight:700;
+  background:linear-gradient(to right,#DFF2EB 0%,darkblue 50%);
+  background-clip:text;
+  color:transparent;
+  font-style: normal
+}
+
+
+/* 
+h2{font-size:1.5rem;
+  font-family: "Audiowide", sans-serif;
+  font-weight:700;
+  font-size:2.4rem;
+  background:linear-gradient(to left,#EC8305,darkblue 30%);
+  background-clip:text;
+  color:transparent;
+  font-style: normal
+}
+*/
+
+
+.image-main{transform:translateY(5px);}
+
+.two-button .info{padding:9px 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight:550;
+    font-size:1;
+    border-radius:50px;
+    text-transform:uppercase;
+    border:none;
+    margin:0 20px;
+    color:black;
+    background:transparent;
+    border:1px solid black;
+    cursor:pointer;
+    font-style: normal;
+}
+
+.text-content button{padding:12px 35px;
+font-family: "Poppins", sans-serif;
+font-weight:550;
+border-radius:50px;
+border:1px solid black;
+margin:0 20px;
+cursor:pointer;
+background:transparent;
+color:black;
+font-style: normal;
+}
+
+.aura-content button{padding:12px 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight:550;
+  border-radius:50px;
+  border:1px solid black;
+  margin:0 20px;
+  cursor:pointer;
+  background:transparent;
+  color:black;
+  font-style: normal;
+  }
+
+.hero-page{display:flex;
+           align-items:center;
+           padding:5% 150px;
+           color:whitesmoke;
+           justify-content:space-between;
+}
+
+.color{background:linear-gradient(to left,#EC8305,darkblue 30%);
+       background-clip:text;
+       color:transparent;
+       font-size:8rem;
+}
+
+.colors{background:linear-gradient(to left,#EC8305,darkblue 30%);
+  background-clip:text;
+  color:transparent;}
+
+.bx-menu-alt-left{font-size:2.8rem;
+                  cursor:pointer;
+                  color:#E3651D;}
+
+.text-content h1{font-size:5.5rem;
+                 font-weight:700;
+                 color:black;
+                 letter-spacing:10px;
+                 line-height:130px;
+                 text-transform:capitalize;
+                 font-family:'poppins';
+}
+
+.chart{transform:translateY(-150px);}
+
+.text-content p{font-size:0.85rem;
+                font-family:'poppins';
+                margin:10px 0;
+                color:black;
+                font-weight:400;}
+
+.nav-bar li,a{margin-inline:60px;
+              display:inline-block;}
+
+.nav-bar{font-family:'poppins';
+         font-weight:400;
+         text-transform:capitalize;
+         font-size:1rem;}
+
+.text-content button{transform:translateX(3px);}
+
+.text-content h1{background:linear-gradient(to left,bisque,black 0%);
+       background-clip:text;
+       color:whitesmoke;
+       color:transparent;
+       transform:translateX(-20px);}
+
+.info-content .image img{border-radius:50%;
+                         border:4px solid whitesmoke;               
+}
+
+
+.aura-content h1{font-size:1.5rem;
+                 text-transform:capitalize;
+                 font-weight:700;
+                 margin:15px 0; 
+                 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.aura-content{transform:translateX(35px);
+}
+
+.aura-content p{font-family:'poppins';
+                font-weight:500;
+                width:90%;
+                font-size:0.82rem;
+                margin-bottom:2%;
+                line-height:18px;
+                color:gray;}
+
+
+.logo.active{filter:blur(30px);}
+
+.nav-bar.active{filter:blur(30px);}
+
+.info.active{filter:blur(30px);
+}
+
+.back-holder.active{filter:blur(30px);}
+
+.humberger.active{filter:blur(30px);}
+
+#mainSection.active{filter:blur(30px);
+                    transition:0.5s ease;}
+
+.info-content{z-index:-1;}
+
+.aura-content button h2{ font-family:'poppins',sans-serif;
+  font-weight:700;
+  font-size:0.85rem;
+  text-transform:capitalize;
+}
+.aura-content button{background:whitesmoke;
+                     margin:10px;
+                     padding:10px 35px;
+                     font-family:'poppins',sans-serif;
+                     font-weight:700;
+                     font-size:0.85rem;
+                     transform:translateX(-15px);}
+
+.info-content{position:absolute;
+              top:50%;
+              display:flex;
+              align-items:center;
+              gap:3rem;
+              display:none;
+              max-width:800px;
+              border-radius:10px;
+              justify-content:space-between;
+              left:50%;
+              background:black;
+              padding:50px;
+              color:whitesmoke;
+              z-index:1;
+              transform:translate(-50%,-50%);}
+
+.mini-feature{margin-left:8%;}
+
+#mobileNav{display:none;}
+
+#navIcon{display:none;}
+
+
+.service-content .service h1{font-size:1.3rem;
+            font-family:'poppins';
+            font-weight:700;
+            margin-bottom:3.5%;
+}
+.service-content .service button{padding:5px 10px;
+                                 font-size:0.99rem;
+                                 font-family:'poppins';
+                                 border-radius:5px;
+                                 cursor:pointer;
+                                 color:black;
+                                 background:transparent;
+                                 font-weight:500;
+}
+
+
+.know-more1{border:2px solid rgb(135, 58, 190);}
+
+.know-more2{border:2px solid black;}
+
+.know-more3{border:2px solid rgba(0, 128, 124, 0.599);}
+
+.service-content .service p{
+  font-family:'poppins';
+  margin-bottom:5%;
+  font-weight:400;
+  font-size:0.99rem;
+}
+
+.service-head h1{font-weight:400px;
+                 text-align:center;
+                 font-family:'poppins';
+                 text-transform:capitalize;
+                 font-size:3rem;
+                  margin:2% 0;
+           
+}
+
+.service-head{background-image:url(tokiyo.jpg);
+              background-clip:text;
+              background-position:bottom;
+              color:transparent;}
+
+.service-holder{margin:10% 0;
+                padding:5px 0;
+}
+
+.service-content .service #right{opacity:0.5;}
+               
+.service-content{display:flex;
+                 align-items:center;
+                 gap:4rem;
+                 padding:5% 0;
+                 margin:3% 0;
+                 justify-content:center;
+}
+@media screen and (max-width:1350px)
+{
+.service-content .service1{
+  padding:20px 50px;
+}
+.service-content .service3{
+  padding:20px 50px;
+}
+
+}
+
+.service-content div{display:flex;
+                     align-items:center;
+                     justify-content:center;
+                     border-radius:30px;
+                     padding:20px;
+                     background:rgba(255,255,255,0.1);
+                     box-shadow:0 5px 10px rgb(0,0,0,0.2);
+                     flex-direction:column;
+                     text-align:center;
+                    }
+/*  
+.service-content::after{
+ content:'';
+ background:rgba(255,255,255,1);
+ box-shadow:0 5px 10px rgb(0,0,0,0.2);
+ width:100px;
+ border-radius:50%;
+ position:absolute;
+ top:150%;
+ z-index:1;
+ background-image:url(bitcoin.png);
+ background-repeat:no-repeat;
+ right:20%;
+ transform:translate(-50%,-50%);
+ height:100px;  
+}
+ */
+
+/* seccond-page responsive area */
+
+@media screen and (max-width:1640px)
+{
+  .service-content .service p{
+    font-family:'poppins';
+    margin-bottom:5%;
+    font-weight:400;
+    font-size:0.78rem;
+  }
+  
+  .service-head h1{font-weight:400px;
+                   text-align:center;
+                   font-family:'poppins';
+                   text-transform:capitalize;
+                   font-size:2rem;
+                    margin:2% 0;
+             
+  }
+
+
+  
+
+.service-content div{margin:0 2%;
+ }
+
+}
+
+@media screen and (max-width:1545px)
+{
+
+  .service-content{display:flex;
+    align-items:center;
+    gap:2rem;
+    margin:3% 0;
+    justify-content:center;
+}
+
+}
+
+@media screen and (max-width:1442px)
+{
+
+.service-content{display:flex;
+  align-items:center;
+  gap:1rem;
+  margin:3% 0;
+  justify-content:center;
+}
+
+}
+
+@media screen and (max-width:1350px)
+{
+
+  .service-content{display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+  }
+
+}
+
+
+/* thrid-content */
+
+.course-enhancement h1{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                       font-weight:500;
+                       font-size:3rem;
+                       margin-bottom:3%;
+}
+
+.course-enhancement .content-enhance p{
+            font-family:'poppins';
+            line-height:30px;
+            font-weight:400;
+            font-size:1em;
+}
+
+.content-enhance .learn-now{padding:10px 20px;
+  font-size:0.99rem;
+  font-family:'poppins';
+  border-radius:10px;
+  border:none;
+  cursor:pointer;
+  margin-top:3%;
+ background:rgba(0, 0, 0, 0.934);
+  color:whitesmoke;
+  box-shadow:1px 3px 5px rgba(0, 0, 0, 0.247);
+  font-weight:500;
+}
+
+
+.image-learn{position:relative;}
+
+
+.course-enhancement{display:flex;
+                    align-content:center;
+                    padding:5% 0;
+                    gap:10rem;
+                    position:relative;
+                    transform:translateY(30px);
+                    justify-content:center;
+}
+
+.sticking-image{display:flex;
+                align-items:center;
+                position:absolute;
+                top:30px;
+                right:25%;
+                padding:15px 20px;
+                border-radius:10px;
+                background:rgba(255,255,255,1);
+                box-shadow:1px 5px 10px rgba(255,255,255,0.2);
+                justify-content:center;
+}
+
+
+.sticking-image h1{font-size:1rem;
+                   font-family:'poppins';
+                   font-weight:400;
+                   letter-spacing:2px;
+                   transform:translateY(2px);
+}
+
+                
+
+
+@media screen and (max-width:1342px)
+{
+
+.hero-page{display:flex;
+    align-items:center;
+    text-align:center;
+    padding:5% 150px;
+    justify-content:center;
+    flex-direction:column;
+}
+
+}
+
+@media screen and (max-width:952px)
+{
+
+  .text-content h1{letter-spacing:0px;
+}
+
+}
+
+@media screen and (max-width:1253px)
+{
+
+.nav-bar li,a{margin-inline:30px;}
+
+}
+
+@media screen and (max-width:973px)
+{
+
+#navIcon{display:block;}
+
+}
+
+@media screen and (max-width:973px)
+{
+
+nav{display:none;}
+
+.two-button button{display:none;}
+}
+
+.closing-button{position:absolute;
+                top:30px;
+                font-size:2.5rem;
+                right:20px;}
+
+
+.contentNav
+  {background:linear-gradient(to bottom,gray,darkblue,gray);
+   position:fixed;
+   top:0;
+   color:whitesmoke;
+   display:none;
+   right:0;
+   z-index:1;
+   min-height:100vh;
+   width:100%;  
+  }
+
+/* background:rgba(255,255,255,0.7);
+   backdrop-filter:blur(10px); */
+
+.a{display:flex;
+   align-items:center;
+}
+
+.contentNav i{margin-right:10px;}
+
+.contentNav li{margin-bottom:110px;}
+
+.contentNav{font-family:'poppins';
+           font-size:1.2rem;
+           font-weight:400;
+           display:flex;
+           align-items:center;
+           justify-content:center;         
+}
+
+
+@media screen and (max-width:860px)
+{
+
+.text-content .color{font-size:3.5rem;}
+
+.text-content h1{font-size:3.5rem;
+    font-weight:700;
+    line-height:65px;
+    text-transform:capitalize;
+    font-family:'poppins';}
+
+.mobile img{width:500px;}
+
+}
+
+@media screen and (max-width:583px)
+{
+
+.hero-page{text-align:center;}
+
+.text-content h1{font-size:2.5rem;
+                 text-align:center;
+}
+
+.mobile img{max-width:400px;}
+}
+
+@media screen and (max-width:431px)
+{
+.mobile img{max-width:300px;}
+}
+
+
+@media screen and (max-width:750px)
+{
+
+.text-content .color{font-size:3rem;}
+
+}
+
+@media screen and (max-width:655px)
+{
+
+.text-content button{margin-bottom:3.5%;}
+
+
+}
+
+@media screen and (max-width:653px)
+{
+
+.text-content h1{white-space:nowrap;
+                line-height:75px;
+                transform:translateX(2px);
+                width:100%;}
+
+
+}
+
+@media screen and (max-width:420px)
+
+{
+
+.mobile button:nth-child(2){
+  background:darkblue;
+}
+
+}
+
+@media screen and (max-width:589px)
+{
+
+.text-content h1{line-height:55px;}
+
+}
+
+/* second -section */
+
+@media screen and (max-width:568px)
+{
+
+.left-content label .content{transform:translateY(50px);}
+
+}
+
+@media screen and (max-width:1342px)
+{
+
+.service-section{margin:10% 0;}
+
+
+.left-content label img{transform:translateY(-10px);}
+
+#service{display:flex;
+  align-items:center;
+  flex-direction:column;
+  gap:3rem;
+  margin:4% 3%;
+  justify-content:space-evenly;
+}
+
+.right-content img{width:100%;
+                   clip-path:none;
+                   border-top-left-radius:30%;
+                   border-bottom-right-radius:30%;}
+
+
+.header-section h2{margin-top:5%;
+                   font-size:4rem;
+                   font-family:'poppins';
+
+} 
+
+}
+
+@media screen and (max-width:760px)
+{
+
+.header-section h2{font-size:2.8rem;}
+
+}
+
+@media screen and (max-width:599px)
+{
+
+label h1{font-size:1.9rem;}
+
+}
+
+@media screen and (max-width:387px)
+{
+.header-section h2{font-size:1.8rem;
+}
+}
+
+@media screen and (max-width:600px)
+{
+
+.service-section .left-content label{animation:none;}
+
+.service-section .right-content{animation:none;}
+
+}
+
+
+/* fourth content of the website  */
+
+.meet-content h1{font-size:3.5rem;
+                 font-weight:800;
+                 line-height:80px;
+                 text-transform:capitalize;
+                 margin-bottom:3%;
+                 letter-spacing:1.5px;
+                 color:black;
+                 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.google-meet{margin:1% auto;
+             color:whitesmoke;
+             padding:5%;}
+
+.meet-content button{padding:10px 25px;
+  font-size:0.99rem;
+  font-family:'poppins';
+  border-radius:10px;
+  text-transform:capitalize;
+  border:none;
+  cursor:pointer;
+  margin-top:3%;
+ background:black;
+  color:whitesmoke;  
+  font-weight:500;
+}
+
+
+.image-connect img{border-radius:10px;
+                   border-top-right-radius:20%;
+}
+
+.meet-content{transform:translateY(80px);}
+
+.meet-content .head-para{
+ font-weight:500;
+color:rgba(0, 0, 0, 0.407);
+ font-size:1.5rem;
+ font-family:'poppins';
+}
+
+.meet-content p{font-size:1rem;
+                font-weight:500;
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color:black;
+}
+
+.google-meet{
+  background:linear-gradient(to right,#c6e7ffcb,rgba(0, 0, 0, 0));
+  border-radius:50px;
+}
+
+.google{
+  color:#1a1a197c;
+
+}
+
+.image-connect img{animation:sideward 0.4s ease;
+                   transition:0.5s;
+                   animation-timeline:view();
+                  
+}
+
+
+.image-connect img{transform:translateY(95px);
+                   cursor:pointer;}
+
+.google-meet{display:flex;
+             align-items:center;
+             gap:10rem;
+             margin:7% 0;
+             padding-bottom:10%;
+             justify-content:center;
+}
+.spec{
+  background: linear-gradient(220.55deg, #5EE2FF 0%, #00576A 100%);
+  background-clip:text;
+  color:transparent;
+}
+
+.bxs-star{
+  color:gold;
+}
+
+.review h1{
+  text-wrap:nowrap;
+  padding-left:15px;
+
+  font-weight:450;
+}
+
+.review .one{
+  transform:translateX(20px);
+}
+
+.review .two{
+  transform:translateX(10px);
+}
+
+.review .three{
+  transform:translateX(3px);
+}
+
+
+.review .four{
+  transform:translateX(-3px);
+}
+.review img{
+  border-radius:50%;
+}
+.ex{
+  text-transform:uppercase;
+}
+
+.google-meet{
+  background:linear-gradient(to left, rgba(0, 0, 0, 0.899));
+  width:100%;
+}
+
+.review{
+  color:black;
+  z-index:1;
+  width:170px;
+  border-radius:10px;
+  height:70px;
+  padding:10px 0;
+  font-size:0.55rem;
+  font-family:'poppins';
+  position:absolute;
+  top:105%;
+  right:80%;
+  background:rgba(255,255,255,1);
+  box-shadow:10px 15px 20px rgb(0,0,0,0.5);
+}
+
+#playbook{
+  position:absolute;
+  right:50%;
+  top:35%;
+  padding:10px;
+  border-radius:50%;
+  background:rgba(255,255,255,0.5);
+  box-shadow:0 5px 10px rgb(0,0,0,0.2);
+  z-index:1;
+}
+
+.left-content label button{padding:10px 20px;
+                           border:none;
+                           border-radius:10px;
+                           font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                           font-weight:700;
+                           cursor:pointer;
+                           background:black;
+}
+
+.image-connect{position:relative;}
+
+.background-blue{position:absolute;
+  z-index:-1;
+}
+
+
+/* booking for live on section */
+
+/*  
+.hold{
+  position:absolute;
+  left:43%;
+  top:350%;
+  width:350px;
+  gap:3rem;
+  display:flex;
+  flex-direction:column;
+  transform:translate(-50%,-50%);
+}
+*/
+.hold input{
+  font-size:1.2rem; 
+  font-family:'poppins';
+  margin-bottom:1.5%;
+ font-weight:500;
+}
+
+.hold{
+  display:flex;
+  gap:2rem;
+  align-items:center;
+  justify-content:center;
+}
+
+.hold input{
+  padding:17px 17px;
+  text-transform:capitalize;
+  border-radius:8px;
+  border:none;
+  font-size:1rem;
+  width:350px;
+   background:whitesmoke;
+   color:black;
+  outline:none;
+}
+.content-live button{
+  width:150px;
+  font-size:1.3rem;
+  border:none;
+  cursor:pointer;
+  font-size:1rem;
+  text-transform:capitalize;
+  background:whitesmoke;
+  color:black;
+  margin-top:3%;
+  border-radius:50px;
+  font-family:'poppins';
+  padding:15px 20px;
+}
+
+.content-live{
+  /* background:linear-gradient(to right,#0c365f,#fff);
+  */
+  background-image:url(phpt.avif);
+  background-size:cover;
+  text-align:center;
+  color:whitesmoke;
+  opacity:0.90;
+  margin:10% 0;
+  padding:7% 0;
+}
+
+.live{
+  color:black;
+}
+.live-section .content-live h1{
+  text-align:center;
+  background-clip:text;
+  background-position:top;
+   color:whitesmoke;
+  text-shadow:1px 5px 10px rgba(255,255,255,0.99);
+  font-size:3rem;
+  margin-bottom:3%;
+  font-family:'poppins';
+  font-weight:400;
+}
+
+@media screen and (max-width:452px)
+{
+.live{
+  color:black;
+}
+
+.live-section .content-live h1{
+  color:black;
+}
+
+}
+
+@media screen and (max-width:960px)
+{
+
+  .hold{
+    display:flex;
+    gap:0.5rem;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .live-section .content-live h1{
+    text-align:center;
+    background-clip:text;
+    background-position:top;
+     color:whitesmoke;
+    text-shadow:1px 5px 10px rgba(255,255,255,0.99);
+    font-size:2rem;
+    margin-bottom:3%;
+    font-family:'poppins';
+    font-weight:400;
+  }
+ 
+
+  .hold input{
+    padding:13px 13px;
+    text-transform:capitalize;
+    border-radius:8px;
+    border:none;
+    width:300px;
+     background:whitesmoke;
+     color:black;
+    outline:none;
+  }
+
+  .content-live button{
+    width:150px;
+    font-size:1.3rem;
+    border:none;
+    cursor:pointer;
+    font-size:1rem;
+    text-transform:capitalize;
+    background:whitesmoke;
+    color:black;
+    margin-top:3%;
+    border-radius:50px;
+    font-family:'poppins';
+    padding:10px 10px;
+  }
+  
+
+}
+
+@media screen and (max-width:629px)
+{
+  .content-live{
+    /* background:linear-gradient(to right,#0c365f,#fff);
+    */
+    background-image:url(phpt.avif);
+    background-size:cover;
+    text-align:center;
+    color:whitesmoke;
+    opacity:0.90;
+    margin:20% 0;
+    padding:7% 0;
+  }
+
+  .live-section .content-live h1{
+    text-align:center;
+    background-clip:text;
+    background-position:top;
+     color:whitesmoke;
+    text-shadow:1px 5px 10px rgba(255,255,255,0.99);
+    font-size:1.5rem;
+    margin-bottom:3%;
+    font-family:'poppins';
+    font-weight:400;
+  }
+  
+  
+
+
+}
+
+
+@media screen and (max-width:1555px)
+{
+  
+.course-enhancement{display:flex;
+  align-content:center;
+  flex-direction:column;
+  text-align:center;
+  gap:5rem;
+}
+
+.image-connect img{max-width:340px;}
+
+.course-enhancement h1{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight:500;
+  font-size:2rem;
+  margin-bottom:2%;
+}
+  
+.course-enhancement .content-enhance p{
+font-family:'poppins';
+line-height:30px;
+font-weight:400;
+font-size:0.85em;
+}
+
+.content-enhance .learn-now{padding:5px 10px;
+  font-size:0.99rem;
+  font-family:'poppins';
+  border-radius:5px;
+  border:1px solid black;
+  cursor:pointer;
+  margin-top:2%;
+}
+
+}
+
+@media screen and (max-width:1555px)
+{
+
+.course-enhancement .content-enhance p{
+    font-family:'poppins';
+    line-height:20px;
+    font-weight:400;
+    text-align:center;
+    font-size:0.85em;
+    }
+
+    .sticking-image{display:flex;
+      align-items:center;
+      position:absolute;
+      top:20px;
+      right:35%;
+      padding:10px 10px;
+      border-radius:10px;
+      background:rgba(255,255,255,1);
+      box-shadow:1px 5px 10px rgba(255,255,255,0.2);
+      justify-content:center;
+}
+
+.sticking-image h1{font-size:0.85rem;
+         font-family:'poppins';
+         font-weight:400;
+         letter-spacing:2px;
+         transform:translateY(2px);
+}
+
+}
+
+@media screen and (max-width:633px)
+{
+
+.lee{max-width:450px;}
+
+.sticking-image{display:flex;
+  align-items:center;
+  position:absolute;
+  top:20px;
+  right:15%;
+  padding:10px 10px;
+  border-radius:10px;
+  background:rgba(255,255,255,1);
+  box-shadow:1px 5px 10px rgba(255,255,255,0.2);
+  justify-content:center;
+}
+
+.course-enhancement .content-enhance p{
+  font-family:'poppins';
+  line-height:20px;
+  font-weight:400;
+  margin-bottom:2.8%;
+  text-align:center;
+  font-size:0.85em;
+  }
+
+
+  .course-enhancement .thala{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:500;
+    font-size:1.8rem;
+    margin-bottom:2%;
+  }
+   
+
+}
+
+@media screen and (max-width:489px)
+{
+  .lee{max-width:350px;}
+
+  .course-enhancement{display:flex;
+    align-content:center;
+    flex-direction:column;
+    text-align:center;
+  
+    gap:3.5rem;
+  }
+
+  
+  .course-enhancement .thala{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:500;
+    font-size:1.5rem;
+    margin-bottom:2%;
+  }
+  
+  .content-enhance .learn-now{padding:3.5px 8px;
+    font-size:0.99rem;
+    font-family:'poppins';
+    border-radius:5px;
+    border:1px solid black;
+    cursor:pointer;
+    margin-top:1%;
+  }
+  
+
+}
+
+@media screen and (max-width:408px)
+{
+
+  .course-enhancement .thala{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:500;
+    font-size:1.35rem;
+    margin-bottom:2%;
+  }
+
+
+}
+
+@media screen and (max-width:1350px)
+{
+
+
+  .google-meet{display:flex;
+    align-items:center;
+    gap:3.5rem;
+    margin:2% 0;
+    text-align:center;
+    flex-direction:column;
+    padding-bottom:10%;
+    justify-content:center;
+}
+
+.image-connect img{max-width:500px;
+}
+
+}
+
+@media screen and (max-width:834px)
+{
+
+.meet-content h1{font-size:2.9rem;
+  font-weight:800;
+  line-height:60px;
+  text-transform:capitalize;
+  margin-bottom:3%;
+  letter-spacing:1.5px;
+  color:black;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+}
+
+.meet-content p{font-size:0.85rem;
+  font-weight:500;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:black;
+}
+.meet-content button{padding:7px 10px;
+  font-size:0.99rem;
+  font-family:'poppins';
+  border-radius:10px;
+  border:none;
+  cursor:pointer;
+  margin-top:3%;
+  background:black;
+  color:whitesmoke;
+  box-shadow:1px 3px 5px rgba(0,0,0,0.8);
+  font-weight:500;
+}
+
+
+@media screen and (max-width:702px)
+{
+
+  .meet-content h1{font-size:2.1rem;
+    font-weight:800;
+    line-height:40px;
+    text-transform:capitalize;
+    margin-bottom:2.3%;
+    letter-spacing:1.1px;
+    color:black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .meet-content .head-para{
+    color:red;
+  }
+  
+#playbook{
+  position:absolute;
+  right:50%;
+  top:25%;
+  width:50px;
+}
+
+.review{
+  color:black;
+  z-index:1;
+  width:170px;
+  border-radius:10px;
+  height:70px;
+  padding:10px 0;
+  font-size:0.55rem;
+  font-family:'poppins';
+  position:absolute;
+  top:115%;
+  right:70%;
+}
+
+
+.meet-content .head-para{
+  font-weight:500;
+ color:rgba(0, 0, 0, 0.407);
+  font-size:0.95rem;
+  font-family:'poppins';
+ }
+
+  .meet-content p{font-size:0.65rem;
+    font-weight:500;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+  }
+  .meet-content button{padding:7px 15px;
+    font-size:0.79rem;
+    font-family:'poppins';
+    border-radius:5px;
+    border:none;
+    cursor:pointer;
+    font-family:'poppins';
+    margin-top:3%;
+    background:black;
+    color:whitesmoke;
+    box-shadow:1px 3px 5px rgba(0,0,0,0.8);
+    font-weight:500;
+    }
+  
+    .image-connect img{max-width:380px;
+    }
+    
+}
+
+
+
+@media screen and (max-width:445px)
+{
+
+  .meet-content h1{font-size:1.7rem;
+    font-weight:800;
+    line-height:30px;
+    text-transform:capitalize;
+    margin-bottom:2.3%;
+    letter-spacing:1.1px;
+    color:black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .image-connect img{max-width:340px;
+  }
+
+ 
+  .review{
+    color:black;
+    z-index:1;
+    width:170px;
+    border-radius:10px;
+    height:70px;
+    padding:10px 0;
+    font-size:0.55rem;
+    font-family:'poppins';
+    position:absolute;
+    top:115%;
+    right:55%;
+  }
+  
+
+}
+
+@media screen and (max-width:652px)
+{
+
+
+  .google-meet{display:flex;
+    align-items:center;
+    gap:3.5rem;
+    margin:6% 0;
+    text-align:center;
+    flex-direction:column;
+    padding-bottom:10%;
+    justify-content:center;
+}
+
+}
+
+@media screen and (max-width:407px)
+{  .meet-content h1{font-size:1.7rem;
+  font-weight:800;
+  line-height:30px;
+  text-transform:capitalize;
+  margin-bottom:4.3%;
+  letter-spacing:1.1px;
+  color:black;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+  .meet-content .head-para{
+    text-align:center;
+    font-weight:500;
+   color:rgba(0, 0, 0, 0.407);
+    font-size:0.75rem;
+    font-family:'poppins';
+   }
+  
+  .google-meet{display:flex;
+    align-items:center;
+    gap:3.5rem;
+    margin:10% 0;
+    text-align:center;
+    flex-direction:column;
+    padding-bottom:10%;
+    justify-content:center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+.google-meet{margin:1% auto;
+color:whitesmoke;
+padding:5%;}
+
+.meet-content button{padding:10px 15px;
+font-size:0.99rem;
+font-family:'poppins';
+border-radius:10px;
+border:none;
+cursor:pointer;
+margin-top:3%;
+background:black;
+color:whitesmoke;
+box-shadow:1px 3px 5px rgba(0,0,0,0.8);
+font-weight:500;
+}
+
+
+.image-connect img{border-radius:10px;
+    border-top-right-radius:20%;
+}
+
+}
+
